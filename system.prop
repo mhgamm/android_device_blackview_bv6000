@@ -28,7 +28,7 @@ wifi.tethering.interface=ap0
 wifi.direct.interface=p2p0
 
 # Graphics
-ro.opengles.version=196608
+ro.opengles.version=196610
 ro.sf.lcd_density=480
 
 # FRP
@@ -49,3 +49,28 @@ ro.sys.fw.dex2oat_thread_count=3
 # Camera HAL
 media.stagefright.legacyencoder=true
 media.stagefright.less-secure=true
+
+ro.agold.keymap=VOLUMEUP,VOLUMEDOWN,MENU,HOME,BACK,FUNC1,FUNC2,CAMERA
+
+ro.mtk_perf_simple_start_win=1
+ro.mtk_perf_fast_start_win=1
+ro.mtk_perf_response_time=1
+ro.remove_led_menu=yes
+ro.battery_charging_led=yes
+ro.agold.tpd.add.gesture=yes
+ro.agold.system.gesture=yes
+ro.agold.glovemode=no
+ro.home_doublelong_press=no
+ro.wifi_max_rssi=-65
+ro.nor.key.vol=108,132,156,180,204,228,252
+ro.hed.key.vol=108,132,156,180,204,228,252
+ro.hnd.key.vol=108,132,156,180,204,228,252
+ro.def.camera.flash=auto
+ro.def.camera.flash.main=AGOLD_EMPTY
+ro.def.camera.flash.sub=AGOLD_EMPTY
+ro.def.camera.zsd=off
+ro.def.camera.face=off
+ro.def.camera.ais=off
+ro.gprs.switch=no
+ro.gravity.rotation=yes
+ro.build.ipo.setting=yes
